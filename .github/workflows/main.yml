@@ -79,16 +79,6 @@ jobs:
           base: ""
           plugin_followup: yes
           plugin_followup_sections: user
-      - name: Detailed report
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.pagespeed.detailed.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://wuyang9.github.io/
 
 
 
