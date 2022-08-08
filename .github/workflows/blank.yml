@@ -1,4 +1,4 @@
-- name: Metrics embed
+- name: WuYang9
   # You may pin to the exact commit or the version.
   # uses: lowlighter/metrics@26bbaac4a9cf67bce1676e0435eff56fe043e8bc
   uses: lowlighter/metrics@v3.26
